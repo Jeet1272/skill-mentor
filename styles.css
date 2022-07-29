@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=M+PLUS+Rounded+1c&family=Poppins:wght@700&family=Prompt:wght@600&family=Space+Grotesk:wght@500&display=swap');
+
+body {
+    font-family: 'Cabin', sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.banner-img-background {
+    filter: brightness(60%);
+}
+
+@media screen and (max-width:576px) {
+    .cover-text-title {
+        font-size: 15px;
+    }
+
+    .cover-text-p {
+        font-size: 10px;
+    }
+}
